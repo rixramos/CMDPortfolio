@@ -1,11 +1,19 @@
 
 /** @type {import('next').NextConfig} */
+
+const repo = "YOUR-REPOSITORY-NAME";
+
 const nextConfig = {
-  output: 'export',
+  output: "export",
+
+  trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
-}
 
-export default nextConfig
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
+};
+
+export default nextConfig;
