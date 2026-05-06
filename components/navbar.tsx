@@ -51,7 +51,7 @@ export function Navbar() {
           href="#"
           className="font-mono text-sm font-bold tracking-wider text-primary hover:neon-text transition-all duration-300"
         >
-          {"<JD />"}
+          {"<JR />"}
         </a>
 
         {/* Nav Links */}
