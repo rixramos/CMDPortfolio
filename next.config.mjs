@@ -1,7 +1,7 @@
 
 /** @type {import('next').NextConfig} */
 
-const repo = "YOUR-REPOSITORY-NAME";
+const repo = "CMDPortfolio";
 
 const nextConfig = {
   output: "export",
