@@ -48,7 +48,7 @@ export function Footer() {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground font-mono order-3 md:order-2">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} John Rick Ramos. All rights reserved.
           </p>
 
           {/* Social Links */}
