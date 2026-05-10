@@ -43,7 +43,7 @@ export function Footer() {
             href="#"
             className="font-mono text-lg font-bold tracking-wider text-primary hover:neon-text transition-all duration-300"
           >
-            {"<JD />"}
+            {"<JR />"}
           </a>
 
           {/* Copyright */}
