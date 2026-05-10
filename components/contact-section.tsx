@@ -11,8 +11,8 @@ const contactInfo = [
       </svg>
     ),
     label: "Email",
-    value: "john.doe@email.com",
-    href: "mailto:john.doe@email.com",
+    value: "johnrick.ramos999@gmail.com",
+    href: "mailto:johnrick.ramos999@gmail.com",
   },
   {
     icon: (
@@ -42,7 +42,7 @@ const contactInfo = [
       </svg>
     ),
     label: "LinkedIn",
-    value: "linkedin.com/in/johndoe",
+    value: "linkedin.com/in/ramos999",
     href: "https://linkedin.com",
   },
 ];
@@ -126,7 +126,7 @@ export function ContactSection() {
                 className="bg-primary text-primary-foreground hover:bg-primary/90 neon-glow px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105"
                 asChild
               >
-                <a href="mailto:john.doe@email.com">
+                <a href="mailto:johnrick.ramos999@gmail.com">
                   Send me an email
                   <svg
                     className="w-5 h-5 ml-2"
