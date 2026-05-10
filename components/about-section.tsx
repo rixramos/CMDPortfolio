@@ -61,7 +61,7 @@ export function AboutSection() {
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 to-accent/30 p-1">
                   <div className="w-full h-full rounded-full bg-card flex items-center justify-center text-4xl font-bold text-primary">
-                    JD
+                    JR
                   </div>
                 </div>
                 {/* Top Agent Badge */}
@@ -72,7 +72,7 @@ export function AboutSection() {
 
               {/* Info */}
               <div className="text-center">
-                <h3 className="text-xl font-bold mb-1">John Doe</h3>
+                <h3 className="text-xl font-bold mb-1">John Rick Ramos</h3>
                 <p className="text-muted-foreground font-mono text-sm mb-4">
                   Customer Experience Expert
                 </p>
