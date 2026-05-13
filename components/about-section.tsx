@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 
 const stats = [
   { value: "5+", label: "Years Experience" },
@@ -58,6 +59,13 @@ export function AboutSection() {
               </div>
 
               {/* Avatar */}
+			  <Image
+  src="/CMDPortfolio/profile.png"
+  alt="John Rick Ramos"
+  width={300}
+  height={300}
+  className="w-full h-full object-cover rounded-full"
+/>
               <div className="relative w-32 h-32 mx-auto mb-6">
                 <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 to-accent/30 p-1">
                   <div className="w-full h-full rounded-full bg-card flex items-center justify-center text-4xl font-bold text-primary">
@@ -81,7 +89,7 @@ export function AboutSection() {
                     <span className="w-1.5 h-1.5 rounded-full bg-primary" />
                     Online
                   </span>
-                  <span>ID: #CX2024</span>
+                  <span>Discord ID: 416852234396106754</span>
                 </div>
               </div>
             </div>

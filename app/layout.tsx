@@ -14,12 +14,12 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'John Doe | Customer Experience Expert',
+  title: 'John Rick Ramos | Portfolio',
   description: 'Dedicated professional with expertise in delivering exceptional customer experiences and technical solutions. View my portfolio and get in touch.',
   keywords: ['customer support', 'technical support', 'portfolio', 'resume', 'customer experience'],
-  authors: [{ name: 'John Doe' }],
+  authors: [{ name: 'John Rick Ramos' }],
   openGraph: {
-    title: 'John Doe | Customer Experience Expert',
+    title: 'John Rick Ramos | Portfolio',
     description: 'Dedicated professional with expertise in delivering exceptional customer experiences and technical solutions.',
     type: 'website',
   },
