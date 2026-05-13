@@ -59,25 +59,26 @@ export function AboutSection() {
               </div>
 
               {/* Avatar */}
-			  
-              <div className="relative w-32 h-32 mx-auto mb-6">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 to-accent/30 p-1">
-                  <div className="w-full h-full rounded-full bg-card flex items-center justify-center text-4xl font-bold text-primary">
-				  <Image
-  src="/CMDPortfolio/profile.png"
-  alt="John Rick Ramos"
-  width={300}
-  height={300}
-  className="w-full h-full object-cover rounded-full"
-/>
-                    JR
-                  </div>
-                </div>
-                {/* Top Agent Badge */}
-                <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full glass-card border border-primary/50 text-[10px] font-mono text-primary uppercase tracking-wider whitespace-nowrap">
-                  Top Agent
-                </div>
-              </div>
+			  <div className="relative w-32 h-32 mx-auto mb-6">
+  <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 to-accent/30 p-1">
+    
+    <div className="relative w-full h-full rounded-full overflow-hidden bg-card border border-primary/20">
+      <Image
+        src="/CMDPortfolio/profile.png"
+        alt="John Rick Ramos"
+        fill
+        className="object-cover rounded-full"
+        priority
+      />
+    </div>
+
+  </div>
+
+  {/* Top Agent Badge */}
+  <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full glass-card border border-primary/50 text-[10px] font-mono text-primary uppercase tracking-wider whitespace-nowrap">
+    Top Agent
+  </div>
+</div>
 
               {/* Info */}
               <div className="text-center">
