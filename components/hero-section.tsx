@@ -88,24 +88,27 @@ export function HeroSection() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <Button
-              size="lg"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 neon-glow px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105"
-            >
-              Download CV
-            </Button>
-            <Button
-  asChild
-  variant="outline"
-  size="lg"
-  className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105"
->
-  <a href="#contact">
-    Get in Touch
-  </a>
-</Button>
+<div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
 
+  <Button
+    size="lg"
+    className="bg-primary text-primary-foreground hover:bg-primary/90 neon-glow px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105"
+  >
+    Download CV
+  </Button>
+
+  <Button
+    asChild
+    variant="outline"
+    size="lg"
+    className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105"
+  >
+    <a href="#contact">
+      Get in Touch
+    </a>
+  </Button>
+
+</div>
           {/* Contact Metadata */}
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground font-mono">
             <div className="flex items-center gap-2">
