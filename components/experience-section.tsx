@@ -3,43 +3,21 @@
 import { useEffect, useRef, useState } from "react";
 
 const experiences = [
-  {
-    title: "Senior Customer Success Manager",
-    company: "TechCorp Solutions",
-    period: "2022 - Present",
-    description: [
-      "Led a team of 12 support specialists, improving response times by 40%",
-      "Implemented new CRM workflows that increased customer satisfaction scores",
-      "Developed training programs for onboarding new team members",
-    ],
-    skills: ["Leadership", "CRM", "Training", "Analytics"],
-  },
-  {
-    title: "Technical Support Specialist",
-    company: "GlobalTech Inc.",
-    period: "2020 - 2022",
-    description: [
-      "Resolved complex technical issues with 98% first-contact resolution rate",
-      "Created comprehensive knowledge base articles reducing ticket volume",
-      "Collaborated with engineering teams to identify and fix product bugs",
-    ],
-    skills: ["Technical Support", "Documentation", "Bug Tracking"],
-  },
-  {
-    title: "Customer Service Representative",
-    company: "StartupHub",
-    period: "2019 - 2020",
-    description: [
-      "Handled high-volume customer inquiries across multiple channels",
-      "Achieved highest customer satisfaction ratings in the department",
-      "Pioneered live chat support implementation for the organization",
-    ],
-    skills: ["Multi-channel Support", "Live Chat", "Customer Care"],
-  },
-  {
+{
+  title: "Aspiring Web Developer & AI Enthusiast",
+  company: "Self-Learning Journey",
+  period: "2024 - Present",
+  description: [
+    "Currently learning modern web development technologies including HTML, CSS, JavaScript, React, and Next.js",
+    "Exploring AI tools and language models to build smarter and more interactive digital experiences",
+    "Developing personal portfolio projects while improving problem-solving and frontend development skills",
+  ],
+  skills: ["Web Development", "Next.js", "React", "AI Tools"],
+},
+    {
     title: "Content Moderator",
-    company: "Social Media Co.",
-    period: "2018 - 2019",
+    company: "Transcom Asia Inc.",
+    period: "2024 - 2024",
     description: [
       "Reviewed and moderated user-generated content following strict guidelines",
       "Maintained platform safety standards while ensuring positive user experience",
@@ -47,6 +25,18 @@ const experiences = [
     ],
     skills: ["Content Moderation", "Policy Compliance", "Quality Assurance"],
   },
+  {
+    title: "Technical Support Specialist",
+    company: "Sykes Asia Inc.",
+    period: "2022 - 2023",
+    description: [
+      "Resolved complex technical issues with 98% first-contact resolution rate",
+      "Created comprehensive knowledge base articles reducing ticket volume",
+      "Collaborated with engineering teams to identify and fix product bugs",
+    ],
+    skills: ["Technical Support", "Documentation", "Bug Tracking"],
+  },
+
 ];
 
 export function ExperienceSection() {
