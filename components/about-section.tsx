@@ -4,9 +4,9 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 const stats = [
-  { value: "5+", label: "Years Experience" },
-  { value: "12", label: "Awards Won" },
-  { value: "8", label: "Companies" },
+  { value: "2+", label: "Years Experience" },
+  { value: "1", label: "Awards Won" },
+  { value: "2", label: "Companies" },
 ];
 
 export function AboutSection() {

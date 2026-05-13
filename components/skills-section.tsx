@@ -13,20 +13,17 @@ const skills = [
 const technologies = [
   "Zendesk",
   "Salesforce",
-  "Intercom",
   "Slack",
   "JIRA",
-  "Confluence",
-  "Microsoft 365",
+  "ChatGPT",
   "Google Workspace",
-  "Freshdesk",
-  "HubSpot",
+  "Figma",
+  "Notepad++",
+  "GitHub",
 ];
 
 const recognitions = [
-  { title: "Top Performer", year: "2023" },
-  { title: "Customer Champion", year: "2022" },
-  { title: "Excellence Award", year: "2021" },
+  { title: "Top Performer", year: "2021" },
 ];
 
 export function SkillsSection() {
