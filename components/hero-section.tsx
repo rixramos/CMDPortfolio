@@ -95,14 +95,9 @@ export function HeroSection() {
             >
               Download CV
             </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105"
-            >
-              Get in Touch
-            </Button>
-          </div>
+            <Button asChild variant="outline" size="lg" className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105" >
+				<a href="#contact"> Get in Touch </a> </Button>
+				</div>
 
           {/* Contact Metadata */}
           <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-muted-foreground font-mono">

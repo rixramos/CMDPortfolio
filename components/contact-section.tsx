@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
-
+id="contact"
 const contactInfo = [
   {
     icon: (
