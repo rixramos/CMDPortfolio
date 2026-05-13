@@ -59,16 +59,17 @@ export function AboutSection() {
               </div>
 
               {/* Avatar */}
-			  <Image
+			  
+              <div className="relative w-32 h-32 mx-auto mb-6">
+                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 to-accent/30 p-1">
+                  <div className="w-full h-full rounded-full bg-card flex items-center justify-center text-4xl font-bold text-primary">
+				  <Image
   src="/CMDPortfolio/profile.png"
   alt="John Rick Ramos"
   width={300}
   height={300}
   className="w-full h-full object-cover rounded-full"
 />
-              <div className="relative w-32 h-32 mx-auto mb-6">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/30 to-accent/30 p-1">
-                  <div className="w-full h-full rounded-full bg-card flex items-center justify-center text-4xl font-bold text-primary">
                     JR
                   </div>
                 </div>
