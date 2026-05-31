@@ -40,7 +40,7 @@ export function AboutSection() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-border to-transparent" />
       
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-16 items-center lg:[&>*:first-child]:order-2 lg:[&>*:last-child]:order-1">
           {/* Profile Card */}
           <div
             className={`relative transition-all duration-1000 ${

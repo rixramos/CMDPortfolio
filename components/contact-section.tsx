@@ -21,8 +21,8 @@ const contactInfo = [
       </svg>
     ),
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+63 991-458-9271",
+    href: "tel:+639914589271",
   },
   {
     icon: (
@@ -32,7 +32,7 @@ const contactInfo = [
       </svg>
     ),
     label: "Location",
-    value: "New York, USA",
+    value: "Tayug, Pangasinan, Philippines",
     href: "#",
   },
   {
@@ -42,8 +42,8 @@ const contactInfo = [
       </svg>
     ),
     label: "LinkedIn",
-    value: "linkedin.com/in/ramos999",
-    href: "https://linkedin.com",
+    value: "John Rick Ramos",
+    href: "https://linkedin.com/in/ramos999",
   },
 ];
 

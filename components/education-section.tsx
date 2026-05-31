@@ -3,11 +3,9 @@
 import { useEffect, useRef, useState } from "react";
 
 const certifications = [
-  "ITIL Foundation",
-  "Zendesk Admin",
   "Salesforce Certified",
   "Google Analytics",
-  "HubSpot Inbound",
+  "TESDA NC II",
 ];
 
 export function EducationSection() {
@@ -99,14 +97,14 @@ export function EducationSection() {
                   <span className="font-mono text-xs text-primary uppercase tracking-wider">
                     2014 - 2018
                   </span>
-                  <h3 className="text-xl font-bold">State University</h3>
+                  <h3 className="text-xl font-bold">Isabela State University</h3>
                 </div>
               </div>
 
               <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
                 Bachelor of Science in{" "}
                 <span className="text-primary neon-text">
-                  Business Administration
+                  Information and Communication Technology
                 </span>
               </h2>
 
@@ -118,13 +116,13 @@ export function EducationSection() {
 
               <div className="flex flex-wrap gap-3">
                 <span className="px-3 py-1 rounded-full bg-primary/20 text-primary font-mono text-xs">
-                  Cum Laude
+                  Undergraduate
                 </span>
                 <span className="px-3 py-1 rounded-full bg-secondary/50 text-muted-foreground font-mono text-xs">
-                  Dean&apos;s List
+                  
                 </span>
                 <span className="px-3 py-1 rounded-full bg-secondary/50 text-muted-foreground font-mono text-xs">
-                  Student Leader
+                  
                 </span>
               </div>
             </div>
