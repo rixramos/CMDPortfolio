@@ -36,15 +36,38 @@ const contactInfo = [
     href: "#",
   },
   {
-    icon: (
-      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-      </svg>
-    ),
-    label: "LinkedIn",
-    value: "John Rick Ramos",
-    href: "https://linkedin.com/in/ramos999",
-  },
+  icon: (
+    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+    </svg>
+  ),
+  label: "LinkedIn",
+  value: "John Rick Ramos",
+  href: "https://www.linkedin.com/in/rixramos999",
+  external: true,
+},
+{
+  icon: (
+    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M20.317 4.369A19.791 19.791 0 0016.558 3c-.177.32-.384.75-.526 1.086a18.27 18.27 0 00-8.064 0A11.42 11.42 0 007.442 3a19.736 19.736 0 00-3.76 1.369C1.306 7.947.664 11.437.985 14.877A19.9 19.9 0 006.067 18c.49-.67.926-1.382 1.3-2.132-.711-.269-1.389-.604-2.03-.997.17-.126.336-.257.497-.393 3.92 1.84 8.172 1.84 12.046 0 .162.136.327.267.497.393-.642.393-1.321.728-2.031.997.375.75.811 1.462 1.301 2.132a19.87 19.87 0 005.081-3.123c.377-3.99-.644-7.449-2.411-10.508z" />
+    </svg>
+  ),
+  label: "Discord",
+  value: "rixramos999",
+  href: "https://discord.com/users/416852234396106754",
+  external: true,
+},
+{
+  icon: (
+    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M18.56 15.75c-.56.56-1.31.88-2.1.88-.8 0-1.55-.32-2.11-.88l-1.02-1.02 1.42-1.42 1.02 1.02a1 1 0 001.38 0 1 1 0 000-1.39l-2.89-2.88a1 1 0 00-1.39 0l-5.65 5.65a1 1 0 000 1.39l2.88 2.88a1 1 0 001.39 0l1.02-1.02 1.42 1.42-1.02 1.02a3 3 0 01-4.23 0l-2.88-2.88a3 3 0 010-4.23l5.65-5.65a3 3 0 014.23 0l2.89 2.88a3 3 0 010 4.23z" />
+    </svg>
+  ),
+  label: "Upwork",
+  value: "View Profile",
+  href: "https://www.upwork.com/freelancers/rixramos",
+  external: true,
+},
 ];
 
 export function ContactSection() {
@@ -148,15 +171,17 @@ export function ContactSection() {
 
           {/* Contact Cards */}
           <div
-            className={`grid grid-cols-1 sm:grid-cols-2 gap-4 transition-all duration-1000 delay-300 ${
+            className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 transition-all duration-1000 delay-300 ${
               isVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
             }`}
           >
             {contactInfo.map((info, index) => (
               <a
                 key={info.label}
-                href={info.href}
-                className="glass-card rounded-xl p-5 transition-all duration-300 hover:neon-border hover:scale-105 group block"
+  href={info.href}
+  target={info.external ? "_blank" : undefined}
+  rel={info.external ? "noopener noreferrer" : undefined}
+  className="glass-card rounded-xl p-5 transition-all duration-300 hover:neon-border hover:scale-105 group block"
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
                 <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center mb-4 text-primary group-hover:bg-primary/30 transition-colors">
