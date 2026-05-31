@@ -95,7 +95,7 @@ export function EducationSection() {
                 </div>
                 <div>
                   <span className="font-mono text-xs text-primary uppercase tracking-wider">
-                    2014 - 2018
+                    2015 - 2020
                   </span>
                   <h3 className="text-xl font-bold">Isabela State University</h3>
                 </div>
