@@ -32,7 +32,7 @@ const contactInfo = [
       </svg>
     ),
     label: "Location",
-    value: "Tayug, Pangasinan, Philippines",
+    value: "Pangasinan, Philippines",
     href: "#",
   },
   {
@@ -42,7 +42,7 @@ const contactInfo = [
     </svg>
   ),
   label: "LinkedIn",
-  value: "John Rick Ramos",
+  value: "View Profile",
   href: "https://www.linkedin.com/in/rixramos999",
   external: true,
 },
@@ -53,7 +53,7 @@ const contactInfo = [
     </svg>
   ),
   label: "Discord",
-  value: "rixramos999",
+  value: "View Profile",
   href: "https://discord.com/users/416852234396106754",
   external: true,
 },
