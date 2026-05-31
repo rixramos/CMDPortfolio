@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const roles = [
   "Technical Support",
   "Content Moderator",
-  "Freelance",
+  "Freelancer",
 ];
 
 export function HeroSection() {
