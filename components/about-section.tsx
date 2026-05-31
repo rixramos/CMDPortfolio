@@ -119,7 +119,7 @@ export function AboutSection() {
               I build{" "}
               <span className="relative">
                 exceptional
-                <span className="absolute -right-6 -top-2 text-red-500 text-xl">+</span>
+                <span className="absolute -right-6 -top-2 text-green-500 text-xl">+</span>
               </span>{" "}
               <span className="text-primary neon-text">customer</span>{" "}
               experiences
