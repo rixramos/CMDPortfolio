@@ -94,7 +94,13 @@ export function HeroSection() {
     size="lg"
     className="bg-primary text-primary-foreground hover:bg-primary/90 neon-glow px-8 py-6 text-base font-semibold transition-all duration-300 hover:scale-105"
   >
+  <a
+    href="/resume/Resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     Download CV
+	</a>
   </Button>
 
   <Button
