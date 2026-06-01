@@ -97,9 +97,7 @@ export function HeroSection() {
   <a
     href="/resume/Resume.pdf"
     target="_blank"
-<<<<<<< HEAD
-    rel="noopener noreferrer"
-=======
+
     rel="noopener noreferrer"
   >
     Download CV
@@ -160,4 +158,4 @@ export function HeroSection() {
     </section>
   );
 }
->>>>>>> 1ad97084812ab1dc8dd8eb47b9a69a8947d63a62
+
