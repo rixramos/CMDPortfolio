@@ -97,7 +97,6 @@ export function HeroSection() {
   <a
     href="/resume/Resume.pdf"
     target="_blank"
-
     rel="noopener noreferrer"
   >
     Download CV
@@ -136,25 +135,28 @@ export function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
-        <span className="font-mono text-xs text-muted-foreground uppercase tracking-wider">
-          Scroll
-        </span>
-        <svg
-          className="w-10 h-10 text-primary animate-scroll-indicator drop-shadow-[0_0_12px_var(--neon-glow)]"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          aria-hidden="true"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2.5}
-            d="M12 5v14m0 0l-6-6m6 6l6-6"
-          />
-        </svg>
-      </div>
+<div className="absolute bottom-2 sm:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 opacity-80">
+
+  <span className="font-mono text-xs text-muted-foreground uppercase tracking-wider">
+    Scroll
+  </span>
+
+  <svg
+    className="w-10 h-10 text-primary animate-scroll-indicator drop-shadow-[0_0_12px_var(--neon-glow)]"
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2.5}
+      d="M12 5v14m0 0l-6-6m6 6l6-6"
+    />
+  </svg>
+
+</div>
     </section>
   );
 }
