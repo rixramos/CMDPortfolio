@@ -52,7 +52,7 @@ export function HeroSection() {
       <div 
         className="absolute inset-0 opacity-[0.03]"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,255,100,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,100,0.1) 1px, transparent 1px)`,
+          backgroundImage: `linear-gradient(rgba(0,229,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0,229,255,0.1) 1px, transparent 1px)`,
           backgroundSize: "50px 50px",
         }}
       />
@@ -139,7 +139,20 @@ export function HeroSection() {
         <span className="font-mono text-xs text-muted-foreground uppercase tracking-wider">
           Scroll
         </span>
-        <div className="w-px h-8 bg-gradient-to-b from-primary to-transparent animate-scroll-indicator" />
+        <svg
+          className="w-10 h-10 text-primary animate-scroll-indicator drop-shadow-[0_0_12px_var(--neon-glow)]"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2.5}
+            d="M12 5v14m0 0l-6-6m6 6l6-6"
+          />
+        </svg>
       </div>
     </section>
   );
