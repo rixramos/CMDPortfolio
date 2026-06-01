@@ -135,7 +135,7 @@ export function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute -bottom-4 sm:bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 sm:gap-2">
+      <div className="absolute bottom-4 sm:bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 sm:gap-2">
         <span className="font-mono text-[10px] text-muted-foreground uppercase tracking-wider">Scroll</span>
         <svg className="w-6 h-6 sm:w-7 sm:h-7 text-primary animate-scroll-indicator drop-shadow-[0_0_8px_var(--neon-glow)]"
           fill="none"
